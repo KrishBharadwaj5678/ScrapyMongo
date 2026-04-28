@@ -8,7 +8,7 @@ The scraped data is then processed and stored in **MongoDB** for scalable and fl
 | Feature                       | Description                                     |
 | ----------------------------- | ----------------------------------------------- |
 | 🕸️ Web Crawling              | Efficiently crawl websites using Scrapy         |
-| 📦 Structured Data Extraction | Extract clean and organized data from web pages |
+| 📦 Data Extraction           | Extract clean and organized data from web pages |
 | 🍃 MongoDB Storage            | Store scraped data in MongoDB for scalability   |
 | ⚡ Fast Processing             | Optimized scraping with asynchronous requests   |
 | 🔄 Flexible Pipelines         | Easy data cleaning and processing workflows     |
@@ -51,9 +51,14 @@ pip install -r requirements.txt
 
 Make sure MongoDB is running locally or provide your MongoDB connection URI.
 
----
 
-### 5️⃣ Run the Spider
+### 5️⃣ Navigate to Folder
+
+```bash
+cd spiders
+```
+
+### 6️⃣ Run the Spider
 
 ```bash
 scrapy crawl main.py
